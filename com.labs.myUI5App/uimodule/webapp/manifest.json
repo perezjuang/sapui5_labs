@@ -76,6 +76,13 @@
           "target": [
             "TargetMainView"
           ]
+        },
+        {
+          "name": "newview2",
+          "pattern": "Routenewview2",
+          "target": [
+            "Targetnewview2"
+          ]
         }
       ],
       "targets": {
@@ -85,6 +92,11 @@
           "clearControlAggregation": false,
           "viewId": "MainView",
           "viewName": "MainView"
+        },
+        "Targetnewview2": {
+          "viewType": "XML",
+          "viewId": "newview2",
+          "viewName": "newview2"
         }
       }
     },
