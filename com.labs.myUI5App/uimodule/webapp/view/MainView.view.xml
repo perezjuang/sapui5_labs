@@ -1,11 +1,5 @@
 <mvc:View controllerName="com.labs.myUI5App.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-    <Shell id="_IDGenShell1">    
-<Page id="page" title="{i18n>title}">
-        <content>
-        <Button id="button01" text="Say Hello" press=".onShowHello" />
-        <Button id="button02" text="Say Hello" press=".onShowHello" />
-        <Input id="input1" value="{/recipient/name}" description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%" />
-        </content>
+    <Page id="page" title="{i18n>title}">
+        <content />
     </Page>
-    </Shell>
 </mvc:View>
