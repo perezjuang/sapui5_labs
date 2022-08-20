@@ -1,5 +1,10 @@
 <mvc:View controllerName="com.labs.myUI5App.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-        <content />
+        <content>
+            <Button id="idbtn01" text="{i18n>showHelloButtonText}" press=".onShowHello" />
+            <Button id="idbtn02" text="Page" press=".onPress" />
+            <Input id="input01" value="{/recipient/name}" 
+             description="Hello {/recipient/name}" valueLiveUpdate="true" width="60%" />
+        </content>
     </Page>
 </mvc:View>

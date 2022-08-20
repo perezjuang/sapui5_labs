@@ -79,9 +79,9 @@
         },
         {
           "name": "newview2",
-          "pattern": "Routenewview2",
+          "pattern": "newview2",
           "target": [
-            "Targetnewview2"
+            "newview2"
           ]
         }
       ],
@@ -93,7 +93,7 @@
           "viewId": "MainView",
           "viewName": "MainView"
         },
-        "Targetnewview2": {
+        "newview2": {
           "viewType": "XML",
           "viewId": "newview2",
           "viewName": "newview2"
